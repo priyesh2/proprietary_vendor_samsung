@@ -1137,6 +1137,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a70q/proprietary/vendor/saiv/image_understanding/db/wine_verifier/wine_verifier_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/wine_verifier/wine_verifier_cnn.prototxt \
     vendor/samsung/a70q/proprietary/vendor/saiv/image_understanding/db/wine_verifier/wine_verifier_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/wine_verifier/wine_verifier_cnn_light.caffemodel
     vendor/samsung/a70q/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
+    vendor/samsung/a70q/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
 
 PRODUCT_PACKAGES += \
     libantradio \
